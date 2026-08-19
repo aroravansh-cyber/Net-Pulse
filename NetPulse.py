@@ -17,7 +17,7 @@ parsed_url = urlparse(url)
 hostname = parsed_url.hostname
 
 if not hostname:
-    print("❌ Invalid website URL.")
+    print("Invalid website URL.")
     exit()
 
 try:
